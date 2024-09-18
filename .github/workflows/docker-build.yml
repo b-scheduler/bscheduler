@@ -41,5 +41,5 @@ jobs:
                   file: ./docker/Dockerfile
                   push: true
                   tags: |
-                      ${{ vars.DOCKERHUB_USERNAME }}/bscheduler:latest
-                      ghcr.io/b-scheduler/bscheduler:latest
+                      ${{ vars.DOCKERHUB_USERNAME }}/bscheduler:dev
+                      ghcr.io/b-scheduler/bscheduler:dev
