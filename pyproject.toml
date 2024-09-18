@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling", ]
+build-backend = "hatchling.build"
+
+[project]
+name = "bscheduler"
+description = "bscheduler"
+keywords = ["bscheduler"]
+requires-python = ">=3.10"
+dependencies = [
+]
+dynamic = ["version", ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+]
+
+[project.optional-dependencies]
+test = ["pytest", "docker", "pytest-asyncio", "pytest-cov"]
+
+docs = ["Sphinx", "pydata-sphinx-theme", "sphinx-click", "autodoc_pydantic"]
+
+[[project.authors]]
+name = "wh1isper"
+email = "jizhongsheng957@gmail.com"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.license]
+text = "BSD 3-Clause License"
+
+[project.urls]
+Source = "https://github.com/b-scheduler/bscheduler"
+
+[tool.check-manifest]
+ignore = [".*", ]
+
+[tool.hatch.version]
+path = "bscheduler/__init__.py"

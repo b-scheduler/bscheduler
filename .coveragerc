@@ -1,0 +1,7 @@
+[run]
+omit =
+    */tests/*
+    brq/tools.py
+    brq/cli.py
+    brq/envs.py
+    brq/daemon.py
