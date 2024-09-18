@@ -1,6 +1,6 @@
 ![](https://img.shields.io/github/license/b-scheduler/bscheduler)
 ![](https://img.shields.io/github/v/release/b-scheduler/bscheduler)
-![](https://img.shields.io/docker/image-size/b-scheduler/bscheduler)
+![](https://img.shields.io/docker/image-size/wh1isper/bscheduler)
 ![](https://img.shields.io/pypi/dm/bscheduler)
 ![](https://img.shields.io/github/last-commit/b-scheduler/bscheduler)
 ![](https://img.shields.io/pypi/pyversions/bscheduler)
