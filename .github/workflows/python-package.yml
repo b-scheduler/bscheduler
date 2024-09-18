@@ -27,7 +27,7 @@ jobs:
                   python -m pip install -e .[test]
             - name: Test with pytest
               run: |
-                  pytest -vv --cov-config=.coveragerc --cov-report term-missing --cov=brq/ tests
+                  pytest -vv --cov-config=.coveragerc --cov-report term-missing --cov=bscheduler/ tests
             - name: Upload coverage reports to Codecov
               if: matrix.python-version == '3.11'
               uses: codecov/codecov-action@v4.0.1
