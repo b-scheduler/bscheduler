@@ -1,0 +1,2 @@
+class BFuture:
+    pass

@@ -8,6 +8,8 @@ description = "bscheduler"
 keywords = ["bscheduler"]
 requires-python = ">=3.10"
 dependencies = [
+    "brq[browser]",
+
 ]
 dynamic = ["version", ]
 classifiers = [
