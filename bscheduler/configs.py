@@ -1,11 +1,11 @@
 from brq.configs import BrqConfig
 
 
-class SQLSettingsMixin:
+class DatabaseSettingsMixin:
     pass
 
 
-class BSchedulerSettings(BrqConfig, SQLSettingsMixin):
+class BSchedulerSettings(BrqConfig, DatabaseSettingsMixin):
     """
     Here we extend the BrqConfig with SQLSettingsMixin.
 
